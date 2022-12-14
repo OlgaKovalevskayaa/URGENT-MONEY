@@ -1,0 +1,41 @@
+.otzivi-content {
+    color: #FFFFFF;
+    box-shadow: inset 0px -1px 0px #5A5A5A;
+    text-align: left;
+    &__div {
+        max-width: 1120px;
+        font-weight: 700;
+        font-size: 1.2rem;
+        line-height: 28px;
+        letter-spacing: 0.02em;
+        padding: 34px 64px 34px 0;
+        position: relative;
+        & div {
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            background: #FFFFFF;
+            border-radius: 20px;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            bottom: 13px;
+            & button img {
+                position: absolute;
+                top: 8px;
+                left: 8px;
+            }
+            &:hover {
+                background: rgba(255, 255, 255, 0.6);
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .otzivi-content {
+        &__div {
+            padding: 24px 64px 24px 0;
+        }
+    }
+}

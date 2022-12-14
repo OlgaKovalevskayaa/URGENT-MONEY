@@ -1,0 +1,43 @@
+.registration-title {
+    text-align: left;
+    padding: 130px 0;
+    margin-right: 118px;
+    max-width: 453px;
+    &__heading {
+        font-weight: 700;
+        font-size: 2.8rem;
+        line-height: 64px;
+    }
+    &__paragraph {
+        font-weight: 400;
+        font-size: 0.9rem;
+        line-height: 28px;
+        margin-top: 24px;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .registration-title {
+        margin-right: 70px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .registration-title {
+        text-align: center;
+        padding: 0;
+        margin-right: 0;
+        margin-bottom: 48px;
+        max-width: 335px;
+        &__heading {
+            font-size: 1.6rem;
+            line-height: 40px;
+        }
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .registration-title {
+        max-width: 280px;
+    }
+}

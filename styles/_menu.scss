@@ -1,0 +1,40 @@
+.menu {
+    display: flex;
+    margin: 0 72.5px;
+    max-width: 531px;
+    &__link {
+        color: #262222;
+        font-weight: 400;
+        font-size: 0.9rem;
+        line-height: 28px;
+        &:not(:last-child) {
+            margin-right: 36px;
+        }
+        &:hover {
+            color: #D65B56;
+        }
+    }
+}
+
+@media screen and (max-width: 1160px) {
+    .menu {
+        margin: 0 30px;
+        &__link {
+            &:not(:last-child) {
+                margin-right: 15px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 796px) {
+    .menu {
+        margin: 0 16px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .menu {
+        display: none;
+    }
+}

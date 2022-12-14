@@ -1,0 +1,32 @@
+.review {
+    text-align: left;
+    margin-top: 24px;
+    &__heading-two {
+        font-weight: 700;
+        font-size: 1.2rem;
+        line-height: 28px;
+        letter-spacing: 0.02em;
+        margin-bottom: 12px;
+    }
+    &__icon i {
+        color: rgba(214, 91, 86, 1);
+        margin-right: 7.67px;
+        font-size: 0.75rem;
+    }
+    &__paragraph {
+        font-weight: 400;
+        font-size: 0.9rem;
+        line-height: 28px;
+        margin-top: 12px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .review {
+        margin-top: 14px;
+        &__paragraph {
+            font-size: 0.8rem;
+            line-height: 26px;
+        }
+    }
+}

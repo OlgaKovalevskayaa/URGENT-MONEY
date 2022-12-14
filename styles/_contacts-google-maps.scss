@@ -1,0 +1,11 @@
+.contacts-google-maps {
+    height: 470px;
+    width: 100%;
+    max-width: 1120px;
+}
+
+@media screen and (max-width: 768px) {
+    .contacts-google-maps {
+        max-width: 335px;
+    }
+}

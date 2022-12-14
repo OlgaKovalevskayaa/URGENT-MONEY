@@ -1,0 +1,15 @@
+.registration {
+    padding: 120px 160px;
+}
+
+@media screen and (max-width: 1024px) {
+    .registration {
+        padding: 100px 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .registration {
+        padding: 80px 20px;
+    }
+}

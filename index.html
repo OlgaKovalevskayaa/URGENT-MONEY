@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>URGENT MONEY</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/610c345b31.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <a href="index.html"><img class="logo logo--black" src="img/Logo-Black.png" alt="URGENT MONEY"></a>
+        <nav class="menu">
+            <a class="menu__link" href="#advantages">Преимущества</a>
+            <a class="menu__link" href="#reviews">Отзывы</a>
+            <a class="menu__link" href="#FAQ">Частые вопросы</a>
+            <a class="menu__link" href="#contacts">Контакты</a>
+        </nav>
+        <a class="button-small button-small--black" href="#registration">Оформить займ</a>
+    </header>
+
+    <div class="background">
+        <ul class="address-data">
+            <li class="address-data__link"><a href="tel:+11234567890">+375 25 784 44 44 </a></li>
+            <li class="address-data__link"><a href="tel:+11234567890">+375 25 784 44 44 </a></li>
+            <li class="address-data__link"><a href="https://www.google.com/maps/place/Dana+mall/@53.9337974,27.6522057,15z/data=!4m5!3m4!1s0x0:0x64eda3a6c9f3bf99!8m2!3d53.9337974!4d27.6522057">ТЦ Дана Мол, офис 117</a></li>
+        </ul>
+
+        <div class="wrapper">
+            <section class="banner">
+                <div class="banner__div">Ставка 4.1% в месяц!</div>
+                <h1 class="banner__heading">Нужны деньги срочно?</h1>
+                <p class="banner__paragraph">В течении 15 минут, при наличии паспорта, наши специалисти помогут вам </p>
+
+                <form class="form">
+                    <h2 class="form__heading">Оформите заявку</h2>
+                    <label class="form__label" for="userName">Ваше имя *</label>
+                    <input class="form__input" type="text" name="name" id="userName" placeholder="Валентин Бодринский">
+                    <label class="form__label" for="userLocation">Ваш город *</label>
+                    <input class="form__input" type="text" name="location" id="userLocation" placeholder="Минск">
+                    <label class="form__label" for="userSum">Сумма займа *</label>
+                    <input class="form__input" type="text" name="sum" id="userSum" placeholder="1 000 BYN">
+                    <label class="form__label" for="userComment">Комментарий</label>
+                    <textarea class="form__textarea" type="text" name="comment" id="userComment" cols="1" rows="2" placeholder="Добрый день! Займ нужен как можно скорее"></textarea>
+                    <button class="button button--black" type="submit">Оформить</button>
+                </form>
+
+                <section class="about-us" id="advantages">
+                    <div class="about-us-div">
+                        <h4 class="about-us-div__info-fersi">5 лет</h4>
+                        <div class="about-us-div__info-second">Уже на рынке</div>
+                    </div>
+
+                    <div class="about-us-div">
+                        <h4 class="about-us-div__info-fersi">95%</h4>
+                        <div class="about-us-div__info-second">Одобрений по займу</div>
+                    </div>
+
+                    <div class="about-us-div">
+                        <h4 class="about-us-div__info-fersi">до 3 лет</h4>
+                        <div class="about-us-div__info-second">Срок погашения</div>
+                    </div>
+
+                    <div class="about-us-div">
+                        <h4 class="about-us-div__info-fersi">15 мин</h4>
+                        <div class="about-us-div__info-second">Одобряем в течении</div>
+                    </div>
+                </section>
+            </section>
+        </div>
+    </div>
+
+    <main>
+        <section class="actions">
+            <div class="wrapper">
+                <h2 class="actions__heading">С нами все просто</h2>
+                <p class="actions__paragraph">Приготовьте паспорт и освободите 15 минут времени. Этого достаточно, чтобы получить деньги</p>
+                <div class="actions-block">
+                    <article class="actions-article">
+                        <div class="div-one">
+                            <div class="div-one__digit">1</div>
+                        </div>
+                        <div class="div-two">
+                            <h3 class="div-two__heading">Оформить заявку</h3>
+                            <p class="div-two__paragraph">Это займёт у вас не более 5 минут</p>
+                        </div>
+                    </article>
+                    <article class="actions-article">
+                        <div class="div-one">
+                            <div class="div-one__digit">2</div>
+                        </div>
+                        <div class="div-two">
+                            <h3 class="div-two__heading">Дождитесь одобрения</h3>
+                            <p class="div-two__paragraph">В среднем решение принимается за 3 минуты</p>
+                        </div>
+                    </article>
+                    <article class="actions-article">
+                        <div class="div-one">
+                            <div class="div-one__digit">3</div>
+                        </div>
+                        <div class="div-two">
+                            <h3 class="div-two__heading">Получите деньги</h3>
+                            <p class="div-two__paragraph">На свою банковскую карту или наличными</p>
+                        </div>
+                    </article>
+                </div>
+                <a class="button button--transparent" href="#">Оформить заявку</a>
+            </div>
+        </section>
+
+        <section class="get-money">
+            <div class="wrapper">
+                <h2 class="get-money__heading">Ежедневно мы выдаем сотни займов, <span style="color: #D65B56;">поможем и вам</span></h2>
+                <p class="get-money__paragraph">Приготовьте паспорт и освободите 15 минут времени. Этого достаточно, чтобы получить деньги</p>
+                <a class="button button--red" href="#">Получить деньги</a>
+            </div>
+        </section>
+
+        <section class="comment" id="reviews">
+            <div class="wrapper">
+                <h2 class="comment__heading">Отзывы клиентов</h2>
+                <p class="comment__paragraph">Стараемся работать так, чтобы каждый клиент оставался даволен и рекомендовал нас друзьям или знакомым</p>
+                <div class="comment-block">
+                    <article class="comment-article">
+                        <div class="name">
+                            <div class="name__img">
+                                <img src="img/Ellipse-Vitaly.png" alt="Vitaly">
+                            </div>
+                            <div class="customer-name">
+                                <h3 class="customer-name__heading-three">Виталий</h3>
+                                <h4 class="customer-name__heading-four">Слесарь “ОАО “Белкебабсервис”</h4>
+                            </div>
+                        </div>
+                        <div class="review">
+                            <h2 class="review__heading-two">Выручили</h2>
+                            <div class="review__icon"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                            <p class="review__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultricies non quisque consequat id vestibulum nisl sed. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultricies non quisque consequat id vestibulum nisl sed.
+                            </p>
+                        </div>
+                    </article>
+                    <article class="comment-article">
+                        <div class="name">
+                            <div class="name__img">
+                                <img src="img/Ellipse-Larisa.png" alt="Larisa">
+                            </div>
+                            <div class="customer-name">
+                                <h3 class="customer-name__heading-three">Лариса</h3>
+                                <h4 class="customer-name__heading-four">Уборщица “Барбшоп Морячок”</h4>
+                            </div>
+                        </div>
+                        <div class="review">
+                            <h2 class="review__heading-two">Спасибо Ургентмани за помощь</h2>
+                            <div class="review__icon"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                            <p class="review__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultricies non quisque consequat id vestibulum nisl sed. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultricies non quisque consequat id vestibulum nisl sed.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+                <div class="arrow">
+                    <div class="arrow__div">
+                        <div><button><img src="icons/Back.svg" alt=""></button></div> 1 / 3
+                        <div><button><img src="icons/Forward.svg" alt=""></button></div>
+                    </div>
+                </div>
+                <a class="button-medium button-medium--transparent" href="#">Стать клиентом</a>
+            </div>
+        </section>
+
+        <section class="questions" id="FAQ">
+            <div class="wrapper">
+                <h2 class="questions__heading">Частые вопросы </h2>
+                <p class="questions__paragraph">Мы постарадись ответить на все самые популярные задаваемые вопросы</p>
+                <div class="questions-block">
+                    <div class="otzivi-content">
+                        <div class="otzivi-content__div">Что необходимо для получение займа?
+                            <div><button><img src="icons/Add_black.svg" alt="Button"></button></div>
+                        </div>
+                    </div>
+                    <div class="otzivi-content">
+                        <div class="otzivi-content__div">Как рассчитывается процент по кредиту?
+                            <div><button><img src="icons/Add_black.svg" alt="Button"></button></div>
+                        </div>
+
+                        <!-- <div class="otzivi-content__opisanie">
+                            <div>Проценты по кредитам устанавливаются финансовыми организациями партнерами. Пример расчета: если берете 100 бел .руб. на срок 11 месяцев под 4,5% в месяц, то нужно будет вернуть 149,5 бел. руб.</div>
+                        </div>-->
+
+                    </div>
+                    <div class="otzivi-content">
+                        <div class="otzivi-content__div">Какую сумму можно оформить при первом обращении?
+                            <div><button><img src="icons/Add_black.svg" alt="Button"></button></div>
+                        </div>
+                    </div>
+                    <div class="otzivi-content">
+                        <div class="otzivi-content__div">Сколько времени рассматривается заявка?
+                            <div><button><img src="icons/Add_black.svg" alt="Button"></button></div>
+                        </div>
+                    </div>
+                    <div class="otzivi-content">
+                        <div class="otzivi-content__div">Через какое время после погашения займа, я могу взять новый?
+                            <div><button><img src="icons/Add_black.svg" alt="Button"></button></div>
+                        </div>
+                    </div>
+                    <div class="otzivi-content">
+                        <div class="otzivi-content__div">Из-за нынешних событий я потерял работу (мне не платят зарплату), могу ли Я получить займ?
+                            <div><button><img src="icons/Add_black.svg" alt="Button"></button></div>
+                        </div>
+                    </div>
+                    <div class="otzivi-button">
+                        <p class="otzivi-button__paragraph">Есть вопрос? Напишите нам на почту и мы ответим</p>
+                        <a class="button-medium button-medium--white" href="#">Задать вопрос</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="registration" id="registration">
+            <div class="wrapper">
+                <div class="registration-block">
+                    <div class="registration-title">
+                        <h2 class="registration-title__heading">Возьмите займ быстро <span style="color: #D65B56;">выгодно и удобно</span></h2>
+                        <p class="registration-title__paragraph">Просто и быстро оформите заявку на займ у нас, закройте свои вопрос</p>
+                    </div>
+                    <form class="form-two">
+                        <h2 class="form-two__heading">Оформите заявку</h2>
+                        <label class="form-two__label" for="userName-two"></label>
+                        <input class="form-two__input" type="text" name="name" id="userName-two" placeholder="Ваше имя *">
+                        <label class="form-two__label" for="userLocation-two"></label>
+                        <input class="form-two__input" type="text" name="location" id="userLocation-two" placeholder="Ваш город *">
+                        <label class="form-two__label" for="userSum-two"></label>
+                        <input class="form-two__input" type="text" name="sum" id="userSum-two" placeholder="Сумма займа *">
+                        <label class="form-two__label" for="userComment-two"></label>
+                        <input class="form-two__input" type="text" name="comment" id="userComment-two" placeholder="Комментарий">
+                        <button class="button button--grey" type="submit">Оформить</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="contacts" id="contacts">
+            <div class="wrapper">
+                <h2 class="contacts__heading">Наши контакты</h2>
+                <p class="contacts__paragraph">Связывайтесь с нам по всем возникающим вопросам</p>
+                <div class="contacts-div">
+                    <article class="contacts-article">
+                        <h6 class="contacts-article__div-one">Наш телефон 1</h6>
+                        <p class="contacts-article__div-two">+375 25 784 44 44</p>
+                    </article>
+                    <article class="contacts-article">
+                        <h6 class="contacts-article__div-one">Наш телефон 2</h6>
+                        <p class="contacts-article__div-two">+375 25 784 44 44</p>
+                    </article>
+                    <article class="contacts-article">
+                        <h6 class="contacts-article__div-one">Наш адрес</h6>
+                        <p class="contacts-article__div-two">ТЦ Дана Мол, офис 117</p>
+                    </article>
+                </div>
+                <iframe class="contacts-google-maps" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d18791.075457219456!2d27.652206!3d53.933797!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x64eda3a6c9f3bf99!2sDana%20mall!5e0!3m2!1sru!2sby!4v1653042618024!5m2!1sru!2sby"
+                    style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="footer-box">
+                <img class="logo logo--white" src="img/Logo-White.png" alt="URGENT MONEY">
+                <nav class="footer-nav">
+                    <a class="footer-nav__anchor" href="#advantages">Преимущества</a>
+                    <a class="footer-nav__anchor" href="#reviews">Отзывы</a>
+                    <a class="footer-nav__anchor" href="#FAQ">Частые вопросы</a>
+                    <a class="footer-nav__anchor" href="#contacts">Контакты</a>
+                </nav>
+                <ul class="footer-address-data">
+                    <li class="footer-address-data__link"><a href="tel:+11234567890">+375 29 744 44 44</a></li>
+                    <li class="footer-address-data__link"><a href="tel:+11234567890">+375 29 744 44 44</a></li>
+                    <li class="footer-address-data__link"><a href="https://www.google.com/maps/search/%D0%A2%D0%A6+%D0%94%D0%B0%D0%BD%D0%B0+%D0%9C%D0%BE%D0%BB,+%D0%BE%D1%84%D0%B8%D1%81+117/@53.9326164,27.6418298,16z/data=!3m1!4b1?hl=ru">ТЦ Дана Мол, офис 117</a></li>
+                </ul>
+                <a class="button-small button-small--white" href="#">Оформить займ</a>
+            </div>
+            <p class="footer__paragraph">Услуги по оформлению микрозаймов населению не оказываем, в соответствии с указом Президента № 394 "О привлечении и предоставлении займов, деятельности микрофинансовых организаций"</p>
+        </div>
+    </footer>
+</body>
+
+</html>

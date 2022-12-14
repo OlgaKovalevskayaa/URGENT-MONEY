@@ -1,0 +1,35 @@
+.contacts {
+    background: rgba(245, 245, 245, 1);
+    padding: 120px 160px;
+    &__heading {
+        font-weight: 700;
+        font-size: 1.8rem;
+        line-height: 40px;
+        letter-spacing: 0.02em;
+        color: #D65B56;
+    }
+    &__paragraph {
+        font-weight: 400;
+        font-size: 0.9rem;
+        line-height: 28px;
+        margin-top: 16px;
+    }
+}
+
+@media screen and (max-width: 1355px) {
+    .contacts {
+        padding: 90px 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contacts {
+        padding: 80px 20px;
+        &__heading {
+            font-size: 1.6rem;
+        }
+        &__paragraph {
+            margin-top: 24px;
+        }
+    }
+}

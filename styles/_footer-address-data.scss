@@ -1,0 +1,32 @@
+.footer-address-data {
+    list-style-type: none;
+    text-align: left;
+    margin-right: 111px;
+    &__link {
+        font-weight: 400;
+        font-size: 0.9rem;
+        line-height: 28px;
+        &:not(:last-child) {
+            margin-bottom: 16px;
+        }
+    }
+    &__link a {
+        color: #D65B56;
+    }
+    & a:hover {
+        color: #FFFFFF;
+    }
+}
+
+@media screen and (max-width: 1180px) {
+    .footer-address-data {
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer-address-data {
+        margin-right: 0;
+        order: 4;
+    }
+}

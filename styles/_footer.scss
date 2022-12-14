@@ -1,0 +1,30 @@
+.footer {
+    padding: 60px 160px;
+    background: rgba(38, 34, 34, 1);
+    &__paragraph {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 0.75rem;
+        line-height: 24px;
+        color: #969696;
+        text-align: justify;
+        margin: 0 auto;
+        margin-top: 48px;
+        max-width: 1120px;
+    }
+}
+
+@media screen and (max-width: 1441px) {
+    .footer {
+        padding: 70px 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        padding: 80px 20px;
+        &__paragraph {
+            text-align: left;
+        }
+    }
+}

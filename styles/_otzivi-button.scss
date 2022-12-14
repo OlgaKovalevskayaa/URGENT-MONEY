@@ -1,0 +1,26 @@
+.otzivi-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0 24px;
+    &__paragraph {
+        font-weight: 700;
+        font-size: 1.2rem;
+        line-height: 28px;
+        letter-spacing: 0.02em;
+        color: #D65B56;
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .otzivi-button {
+        flex-direction: column;
+        margin: 0 auto;
+        max-width: 335px;
+        &__paragraph {
+            margin-right: 0;
+            margin-bottom: 24px;
+        }
+    }
+}

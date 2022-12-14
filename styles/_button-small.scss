@@ -1,0 +1,33 @@
+.button-small--black {
+    @include button-small;
+    color: #FFFFFF;
+    background: #262222;
+    &:hover {
+        background: #D65B56;
+        transition: 0.2s ease;
+    }
+}
+
+@media screen and (max-width: 1012px) {
+    .button-small--black {
+        display: none;
+    }
+}
+
+.button-small--white {
+    @include button-small;
+    background: #FFFFFF;
+    color: #262222;
+    &:hover {
+        background: #D65B56;
+        transition: 0.2s ease;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .button-small--white {
+        order: 2;
+        width: 335px;
+        width: 100%;
+    }
+}

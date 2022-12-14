@@ -1,0 +1,36 @@
+.comment-article {
+    background: rgba(255, 255, 255, 1);
+    max-width: 550px;
+    height: 380px;
+    padding: 24px 24px 48px;
+    &:not(:last-child) {
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 977px) {
+    .comment-article {
+        padding: 24px;
+    }
+}
+
+@media screen and (max-width: 937px) {
+    .comment-article {
+        height: 380px;
+        padding: 24px;
+        &:not(:last-child) {
+            margin-right: 0;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .comment-article {
+        max-width: 335px;
+        height: 468px;
+        &:last-child {
+            display: none;
+        }
+    }
+}

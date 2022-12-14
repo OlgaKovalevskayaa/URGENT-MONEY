@@ -1,0 +1,15 @@
+.customer-name {
+    text-align: left;
+    margin: 10px 0 34px 16px;
+    &__heading-three {
+        font-weight: 700;
+        font-size: 0.9rem;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+    }
+    &__heading-four {
+        font-weight: 400;
+        font-size: 0.7rem;
+        line-height: 20px;
+    }
+}

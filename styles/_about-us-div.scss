@@ -1,0 +1,48 @@
+.about-us-div {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 265px;
+    height: 92px;
+    text-align: left;
+    &:not(:last-child) {
+        margin-right: 20px;
+    }
+    &__info-fersi {
+        font-weight: 700;
+        font-size: 2.8rem;
+        line-height: 64px;
+    }
+    &__info-second {
+        font-weight: 400;
+        font-size: 0.9rem;
+        line-height: 28px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .about-us-div {
+        width: 335px;
+        &__info-fersi {
+            font-size: 2.2rem;
+            line-height: 52px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about-us-div {
+        width: 335px;
+        height: 80px;
+        &:not(:last-child) {
+            margin-right: 0px;
+            margin-bottom: 32px;
+        }
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .about-us-div {
+        width: 280px;
+    }
+}

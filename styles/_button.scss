@@ -1,0 +1,102 @@
+.button--black {
+    @include button;
+    cursor: pointer;
+    color: #FFFFFF;
+    background: #262222;
+    &:hover {
+        &:hover {
+            background: #D65B56;
+            border-color: #D65B56;
+            transition: 0.2s ease;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .button--black {
+        max-width: 287px;
+        margin-top: 24px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .button--black {
+        max-width: 260px;
+    }
+}
+
+.button--transparent {
+    @include button;
+    border: 1px solid #262222;
+    color: #262222;
+    display: block;
+    margin: 0 auto;
+    &:hover {
+        color: #D65B56;
+        border-color: #D65B56;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .button--transparent {
+        max-width: 335px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .button--transparent {
+        max-width: 260px;
+    }
+}
+
+.button--red {
+    @include button;
+    color: #FFFFFF;
+    background: #D65B56;
+    display: block;
+    margin: 0 auto;
+    transition: opacity 0.2s ease;
+    &:hover {
+        color: #262222;
+        opacity: 0.8;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .button--red {
+        max-width: 335px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .button--red {
+        max-width: 260px;
+    }
+}
+
+.button--grey {
+    @include button;
+    cursor: pointer;
+    color: #FFFFFF;
+    background: #969696;
+    border-color: #969696;
+    margin-top: 32px;
+    transition: 0.2s ease;
+    &:hover {
+        background: #D65B56;
+        border-color: #D65B56;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .button--grey {
+        max-width: 287px;
+        margin-top: 24px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .button--grey {
+        width: 230px;
+    }
+}

@@ -1,0 +1,30 @@
+.div-two {
+    margin-top: 24px;
+    &__heading {
+        font-weight: 700;
+        font-size: 1.2rem;
+        line-height: 28px;
+        letter-spacing: 0.02em;
+        color: #262222;
+        margin-bottom: 16px;
+    }
+    &__paragraph {
+        font-weight: 400;
+        font-size: 0.9rem;
+        line-height: 28px;
+        color: #262222;
+    }
+}
+
+@media screen and (max-width: 1108px) {
+    .div-two {
+        &__heading {
+            font-size: 1.05rem;
+            line-height: 21px;
+        }
+        &__paragraph {
+            font-size: 0.75rem;
+            line-height: 21px;
+        }
+    }
+}

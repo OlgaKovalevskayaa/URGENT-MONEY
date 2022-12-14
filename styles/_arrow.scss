@@ -1,0 +1,43 @@
+.arrow {
+    margin: 0 auto 48px;
+    &__div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 400;
+        font-size: 0.7rem;
+        line-height: 20px;
+        & div:first-child {
+            background: #969696;
+            width: 40px;
+            height: 40px;
+            border-radius: 20px;
+            position: relative;
+            margin-right: 24px;
+            & button img {
+                position: absolute;
+                top: 8px;
+                left: 8px;
+                &:hover {
+                    opacity: 0.8;
+                }
+            }
+        }
+        & div:last-child {
+            background: #262222;
+            width: 40px;
+            height: 40px;
+            border-radius: 20px;
+            position: relative;
+            margin-left: 24px;
+            & button img {
+                position: absolute;
+                top: 8px;
+                left: 8px;
+                &:hover {
+                    opacity: 0.8;
+                }
+            }
+        }
+    }
+}

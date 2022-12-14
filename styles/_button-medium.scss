@@ -1,0 +1,46 @@
+.button-medium--transparent {
+    @include button-medium;
+    color: #262222;
+    border: 1px solid #262222;
+    display: block;
+    margin: 0 auto;
+    &:hover {
+        color: #D65B56;
+        border-color: #D65B56;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .button-medium--transparent {
+        width: 335px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .button-medium--transparent {
+        max-width: 270px;
+    }
+}
+
+.button-medium--white {
+    @include button-medium;
+    background: #FFFFFF;
+    color: #262222;
+    display: block;
+    transition: 0.2s ease;
+    &:hover {
+        background: #D65B56;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .button-medium--white {
+        width: 335px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .button-medium--white {
+        max-width: 270px;
+    }
+}

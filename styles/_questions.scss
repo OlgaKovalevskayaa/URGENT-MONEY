@@ -1,0 +1,33 @@
+.questions {
+    padding: 120px 160px;
+    background: rgba(38, 34, 34, 1);
+    &__heading {
+        font-weight: 700;
+        font-size: 1.8rem;
+        line-height: 40px;
+        letter-spacing: 0.02em;
+        color: #D65B56;
+    }
+    &__paragraph {
+        font-weight: 400;
+        font-size: 0.9rem;
+        line-height: 28px;
+        color: #FFFFFF;
+        margin-top: 16px;
+    }
+}
+
+@media screen and (max-width: 1439px) {
+    .questions {
+        padding: 100px 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .questions {
+        padding: 80px 20px;
+        &__heading {
+            font-size: 1.6rem;
+        }
+    }
+}

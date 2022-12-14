@@ -1,0 +1,30 @@
+.actions-article {
+    background: #F5F5F5;
+    max-width: 360px;
+    width: calc((100% - 2 * 20px) / 3);
+    height: 284px;
+    vertical-align: middle;
+    padding: 48px 24px 76px;
+    &:not(:last-of-type) {
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .actions-article {
+        min-width: 335px;
+        height: 236px;
+        padding: 24px;
+        &:not(:last-of-type) {
+            margin-right: 0px;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .actions-article {
+        min-width: 290px;
+        height: 245px;
+    }
+}

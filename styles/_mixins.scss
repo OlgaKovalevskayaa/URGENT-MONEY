@@ -1,0 +1,54 @@
+@mixin pseudo-contacts-article {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+@mixin button {
+    font-weight: 500;
+    font-size: 0.9rem;
+    border-radius: 360px;
+    width: 360px;
+    height: 64px;
+    line-height: 64px;
+}
+
+@mixin button-medium {
+    font-weight: 500;
+    font-size: 0.9rem;
+    border-radius: 360px;
+    width: 360px;
+    height: 64px;
+    line-height: 64px;
+}
+
+@mixin button-small {
+    font-weight: 500;
+    font-size: 0.9rem;
+    line-height: 54px;
+    border-radius: 360px;
+    width: 216px;
+    height: 54px;
+}
+
+
+/*@mixin pseudo-arrow {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 20px;
+    bottom: 12px;
+    left: 12px;
+}*/
+
+@mixin pseudo-address-data {
+    content: "";
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    margin-right: 8px;
+    vertical-align: middle;
+}

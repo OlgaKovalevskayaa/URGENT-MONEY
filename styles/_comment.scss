@@ -1,0 +1,45 @@
+.comment {
+    padding: 120px 160px;
+    background-color: rgba(245, 245, 245, 1);
+    &__heading {
+        font-weight: 700;
+        font-size: 1.8rem;
+        line-height: 40px;
+        letter-spacing: 0.02em;
+        color: #D65B56;
+        margin-bottom: 16px;
+    }
+    &__paragraph {
+        font-weight: 400;
+        font-size: 0.9rem;
+        line-height: 28px;
+        max-width: 740px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .comment {
+        padding: 100px 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .comment {
+        padding: 80px 20px;
+        &__heading {
+            font-size: 1.6rem;
+        }
+        &__paragraph {
+            min-width: 335px;
+        }
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .comment {
+        &__paragraph {
+            min-width: 270px;
+        }
+    }
+}
